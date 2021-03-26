@@ -7,22 +7,34 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="images/fav.png" type="image/png" sizes="100x1000">
     <title>Buy Book Online - Best Online Book Shop in Bangladesh | Rokomari.com</title>
 </head>
 <body>
-    <header>
-        <!----------------- logo and searchbar ------------------>
-        <div>
-
-
-
-
+    <!--------------------------- logo and searchbar with stcky quality ----------------------->
+        <div class="wrapped" id="wrappy">
+            <div class="navy">
+                <ul>
+                    <li>
+                    <img src="images/logo.png" alt="logo">
+                    </li>
+                    <li><input type="text" placeholder="Search by books (ex. ক্রীতদাসের হাসি, The Power of Habit)"><i class="fa fa-search"></i></li>
+                    <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+                    <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                    </svg></li>
+                    <li><button type="button">Sign in</button></li>
+                </li> 
+            </ul>
         </div>
-        <!----------------- bootstrap tab plugin ----------------->
+    </div>
+    
+    <header >
+        <!----------------------------------- second navbar ----------------------------------->
         <div class="wrap">
             <div class="navi">
                 <ul>
-                    <li><a href="#">বই</a></li>
+                    <li><a href="#" class="active">বই</a></li>
                     <li><a href="#">ইলেকট্রনিক্স</a></li>
                     <li><a href="#">স্টেশনারি ও অন্যান্য</a></li>
                     <li><a href="#"> <img src="images/gift.png" alt="gift"> গিফট ফাইন্ডার</a></li>
@@ -33,7 +45,7 @@
             </div>
         </div>
         <hr size="2" noshade>
-        <!----------------- navbar with megamenu ------------------>
+        <!----------------------------------- navbar with megamenu ---------------------------->
         <nav> 
         <div class="wrapper">
             <ul class="nav-links">
@@ -101,15 +113,130 @@
                 <li><a href="#">উপন্যাস</a></li>
                 <li><a href="#">বিজ্ঞানবাক্স</a></li>
             </ul>
-
-
-
         </div>
         </nav>
     </header>
+
+<!-- ------------------------------------- mobile navbar --------------------------------
+
+<div class="sidebar">
+    <ul>
+        <li><a href="#"><i class="fa fa-home"></i>&nbsp; হোম</h5></a></li>
+        <li><a href="#"><i class="fa fa-book"></i>&nbsp; বই</a></li>
+        <li><a href="#"><i class="fa fa-cogs"></i>&nbsp; ইলেক্ট্রনিক্স</a></li>
+        <li><a href="#"><i class="fa fa-pencil-square-o"></i>&nbsp; স্টেশনারী ও অন্যান্য</a></li>
+        <li><a href="#"><i class="fa fa-gift"></i>&nbsp; গিফট ফাইন্ডার</a></li>
+        <li><a href="#"><i class="fa fa-handshake-o"></i>&nbsp; প্রাতিষ্ঠানিক অর্ডার</a></li>
+        <li><a href="#"><i class="fa fa-gift"></i>&nbsp; অফারসমূহ</a></li>
+        <li><a href="#"><i class="fa fa-lock"></i>&nbsp; সংগ্রহসমূহ</a></li>
+        <li><a href="#"><i class="fa fa-truck"></i>&nbsp; অর্ডার ট্র্যাক</a></li>
+        <li><a href="#">ব্লগ</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Writer/Publisher Request</a></li>
+        <li><a href="#">About Us</a></li>
+        
+    </ul>
+</div>
+<div class="mobi1">
+        <ul>
+            <li><a href="#" class="menu"><i class="fa fa-bars"></i></a></li>
+            <li><a href="#"> <img src="images/logo.png" alt="logo"></a></li>
+            <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+            </svg></a></li>
+            <li><a href="#" class="user"><i class="fa fa-user-o"></i></a></li>
+        </ul>
+</div> -->
+<!-- <div class="mobi2">
+    <ul>
+        <li><input type="text" placeholder="Search by books (ex. ক্রীতদাসের হাসি, The Power of Habit)"><i class="fa fa-search"></i></li>
+    </ul>
+</div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
 

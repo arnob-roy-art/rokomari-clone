@@ -204,6 +204,7 @@ nav .wrapper li a i:hover{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    z-index: 1000;
 }
 .mega-box .content .row{
     margin-inline: 70px;
@@ -344,3 +345,36 @@ cursor: pointer;
     border-radius: 4px 0 0 4px;
 }
 } */
+.cardt{
+ border: 9px solid #0797D6;
+   width: 25%;
+   margin: 10px;
+   position: relative;
+   border-top: 55px solid #0797D6;
+}
+.cardt img{
+    background: #0797D6;
+    position: absolute;
+    z-index: 500;
+    top: -41px;
+    left: 65px;
+    width: 50%;
+}
+.options{
+    width: 18em;
+    margin-top: 15px;
+    outline: none;
+    padding: 4.7px;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    margin-inline: 10px;
+    margin-bottom: 15px;
+    font-size: .9em;
+    color: rgb(88, 80, 80)
+}
+.options:focus{
+    border: 2px solid #eee;  
+}
+option{
+    color: rgb(88, 80, 80);
+}

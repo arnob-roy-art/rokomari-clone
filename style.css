@@ -347,7 +347,7 @@ cursor: pointer;
 } */
 .cardt{
     border: 11px solid #0797D6;
-    width: 26.5%;
+    width: 28%;
     margin: 30px;
     position: relative;
     border-top: 55px solid #0797D6;
@@ -363,7 +363,7 @@ cursor: pointer;
 }
 .cardt1{
     border: 11px solid rgb(255, 145, 0);
-    width: 26.5%;
+    width: 28%;
     margin: 30px;
     position: relative;
     border-top: 55px solid rgb(255, 145, 0);
@@ -448,11 +448,11 @@ option{
     padding: 4px;
     padding-inline: 1em;
     margin-bottom: 14px;
-    outline: none;
     border: 1px solid #0797D6;
     border-radius: 4px;
     color: #1986b4;
     font-size: 1em;
+    outline: none;
     transition: all .3s;
 }
 .butt button:hover{
@@ -490,17 +490,86 @@ option{
     border-bottom: .8px solid #ddd;
     position: relative;
     background: white;
-    padding-block: 5.3em;
+    padding-block: 4.6em;
 }
-.image-topper img:nth-child(1){
-    position: absolute;
-    left: 10px;
-}
-.image-topper img{
+
+
+.img1 img{
     position: absolute;
     width: 62px;
     height: 62px;
     border: 2px solid #feb204;
     border-radius: 50%;
+    top: 60px;
+    left: 26px;
 }
-
+.img1 h5{
+    position: relative;
+    top: 69px;
+    left: 13px;
+}
+.img2 img{
+    position: absolute;
+    width: 94px;
+    height: 94px;
+    border: 2px solid #feb204;
+    border-radius: 50%;
+    top: 10px;
+    left: 125px;
+    z-index: 200;
+}
+.img2 h5{
+    position: absolute;
+    top: 124px;
+    left: 125px;
+}
+.img3 img{
+    position: absolute;
+    width: 62px;
+    height: 62px;
+    border: 2px solid #feb204;
+    border-radius: 50%;
+    top: 60px;
+    left: 260px;
+}
+.img3 h5{
+    position: absolute;
+    top: 141px;
+    left: 240px;
+}
+.badgey{
+    color: #495057;
+    background-color: #ff9900;
+    border-radius: 50%;
+    padding: 5px 9px;
+    font-weight: 700;
+    font-size: 14px;
+    position: absolute;
+    bottom: 29px;
+    left: 45px;
+    z-index: 1000;
+}
+.badgey1{
+    color: #495057;
+    background-color: #ff9900;
+    border-radius: 50%;
+    padding: 5px 9px;
+    font-weight: 700;
+    font-size: 14px;
+    position: absolute;
+    bottom: 50px;
+    left: 160.5px;
+    z-index: 1000;
+}
+.badgey2{
+    color: #495057;
+    background-color: #ff9900;
+    border-radius: 50%;
+    padding: 5px 9px;
+    font-weight: 700;
+    font-size: 14px;
+    position: absolute;
+    bottom: 29px;
+    left: 278px;
+    z-index: 1000;
+}

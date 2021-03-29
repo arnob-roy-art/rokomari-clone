@@ -288,6 +288,7 @@ nav .wrapper li a i:hover{
     border: 11px solid #b196e4;
     width: 100%;
     margin: 30px;
+    margin-bottom: -15px;
     position: relative;
     border-top: 55px solid #b196e4;
     background: rgb(246, 243, 250);
@@ -305,6 +306,7 @@ nav .wrapper li a i:hover{
     border: 11px solid #89c540;
     width: 100%;
     margin: 30px;
+    margin-bottom: -15px;
     position: relative;
     border-top: 55px solid #89c540;
     background: rgb(246, 243, 250);
@@ -390,12 +392,18 @@ option{
 .book-text h6{
     color:rgb(134, 134, 134) ;
 }
+.accordt .book-text h6{
+    margin-left: 14px;
+}
 .book h4{
     font-size: 2em;
     color: rgb(134, 134, 134);
 }
-.book i{
+.fa-arrow-up{
     color: limegreen;
+}
+.fa-arrow-down{
+    color: #f7755e ;
 }
 .butt{
     background: white;

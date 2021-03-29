@@ -1,14 +1,14 @@
-window.onscroll = function() {myFunction()};
+// window.onscroll = function() {myFunction()};
 
-var wrappy = document.getElementById("wrappy");
+// var wrappy = document.getElementById("wrappy");
 
-var sticky = wrappy.offsetTop;
+// var sticky = wrappy.offsetTop;
 
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    wrappy.classList.add("sticky")
-  } else {
-    wrappy.classList.remove("sticky");
-  }
-}
+// function myFunction() {
+//   if (window.pageYOffset >= sticky) {
+//     wrappy.classList.add("sticky")
+//   } else {
+//     wrappy.classList.remove("sticky");
+//   }
+// }
 

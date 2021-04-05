@@ -838,6 +838,9 @@ letter-spacing: .8px;
     border: none !important;
     border-bottom: 2px solid #EAECED !important;
 }
+.input-group-text i{
+    color: #c9caca;
+}
 .form-control{
     border: none !important;
     border-bottom: 2px solid #EAECED !important;
@@ -851,6 +854,13 @@ letter-spacing: .8px;
     margin-bottom: 5px;
     text-align: left;
     margin-inline: 46px;
+}
+.check-box > label, a{
+    margin: 0;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .3px;
 }
 .g-recaptcha{
     margin-inline: 46px;

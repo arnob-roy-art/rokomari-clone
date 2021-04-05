@@ -764,13 +764,14 @@ letter-spacing: .8px;
     letter-spacing: .4px;
     font-weight: 400;
 }
-.tab-body .h5-2 span{
+.tab-body .h5-2 span a{
     margin-left: 10px;
     color: #2874F0;
     font-weight: bold;
     font-size: 20px;
     letter-spacing: .5px;
     cursor: pointer;
+    text-decoration: none;
 }
 .tab-body .btn1{
     width: 170px;
@@ -827,4 +828,5 @@ letter-spacing: .8px;
     width: 100%;
     outline: none;
     border: 2px solid #33c24d;
+    font-size: 20px;
 }

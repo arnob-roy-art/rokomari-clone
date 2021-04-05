@@ -755,7 +755,7 @@ letter-spacing: .8px;
     font-weight: bold;
 }
 .tab-body .h5-2{
-    margin-top: 20px;
+    margin-top: 35px;
 }
 .tab-body .h5-2 i{
     font-size: 18px;
@@ -829,4 +829,25 @@ letter-spacing: .8px;
     outline: none;
     border: 2px solid #33c24d;
     font-size: 20px;
+}
+.form-group{
+    margin-inline: 44px;
+}
+.input-group-text{
+    background: transparent !important;
+    border: none !important;
+    border-bottom: 2px solid #EAECED !important;
+}
+.form-control{
+    border: none !important;
+    border-bottom: 2px solid #EAECED !important;
+}
+.form-control:focus{
+    border-color: #abd0f8 !important;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075)  !important;
+}
+.check-box{
+    margin-top: 40px;
+    text-align: left;
+    margin-inline: 46px;
 }

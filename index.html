@@ -614,21 +614,40 @@
                         <h5 class="h5-1">OR</h5>
                         <h6 class="h6-2">Login with your email or phone number</h6><br>
                         <form action="">
-                            <img src="images/icon-email.png" alt="">
-                            <input type="text" placeholder="Email or phone"><br>
-                            <img src="images/icon-password.png" alt="">
-                            <input type="text" placeholder="Password"><br>
-                            <input type="checkbox" id="remember" name="" value="">
-                            <label for="remember">Remember Me</label>
-                            <a href="#" style="text-decoration: none;">Forgot Password?</a><br>
+                            <div class="form-group">
+                                <!-- <label for="email">Email or Phone</label> -->
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="email">
+                                            <img src="images/icon-email.png" alt="">
+                                        </span>
+                                    </div>
+                                    <input  class="form-control" data-validation-type="not-blank" placeholder="Email or phone" validation="required" required="required" type="text" style="text-align: left;">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <!-- <label for="email">Email or Phone</label> -->
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="email">
+                                            <img src="images/icon-password.png" alt="">
+                                        </span>
+                                    </div>
+                                    <input  class="form-control" data-validation-type="not-blank" placeholder="Password" validation="required" required="required" type="text" style="text-align: left;">
+                                </div>
+                            </div>
+                            <div class="check-box">
+                                <input type="checkbox" id="remember" name="" value="">
+                                <label for="remember" style="margin-left: 4px;">Remember Me</label>
+                                <a href="#" style="text-decoration: none; float: right;">Forgot Password?</a><br>
+                            </div>
                             <div class="wrapped-button">
                                 <button type="submit" class="btn3">Sign In</button>
                             </div>
                         </form>
                         <h5 class="h5-2"><i>Don’t have an account?</i><span><a href="#">Sign Up Now!</a></span></h5>
-
-
                     </div>
+
                     <div class="tab-body">
                         <h6>Register fast with your facebook or google</h6>
                         <button class="btn1"> <img src="images/icon-fb.png" alt=""> Facebook</button>
@@ -636,16 +655,54 @@
                         <h5 class="h5-1">OR</h5>
                         <h6 class="h6-2">Register with your information</h6><br>
                         <form action="">
-                            <img src="images/icon-fullname.png" alt="">
-                            <input type="text" placeholder="Full Name"><br>
-                            <img src="images/icon-email.png" alt="">
-                            <input type="text" placeholder="john.doe@gmail.com"><br>
-                            <img src="images/icon-phone.png" alt="">
-                            <input type="text" placeholder="Mobile No"><br>
-                            <img src="images/icon-password.png" alt="">
-                            <input type="text" placeholder="Password"><br>
-                            <input type="checkbox" id="policy" name="" value="">
-                            <label for="policy">I agree to the Terms of Use and Privacy Policy</label><br>
+                            <div class="form-group">
+                                <!-- <label for="email">Email or Phone</label> -->
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="email">
+                                            <img src="images/icon-fullname.png" alt="">
+                                        </span>
+                                    </div>
+                                    <input  class="form-control" data-validation-type="not-blank" placeholder="Full Name" validation="required" required="required" type="text" style="text-align: left;">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <!-- <label for="email">Email or Phone</label> -->
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="email">
+                                            <img src="images/icon-email.png" alt="">
+                                        </span>
+                                    </div>
+                                    <input  class="form-control" data-validation-type="not-blank" placeholder="john.doe@gmail.com" validation="required" required="required" type="text" style="text-align: left;">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <!-- <label for="email">Email or Phone</label> -->
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="email">
+                                            <img src="images/icon-phone.png" alt="">
+                                        </span>
+                                    </div>
+                                    <input  class="form-control" data-validation-type="not-blank" placeholder="Mobile No" validation="required" required="required" type="text" style="text-align: left;">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <!-- <label for="email">Email or Phone</label> -->
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="email">
+                                            <img src="images/icon-password.png" alt="">
+                                        </span>
+                                    </div>
+                                    <input  class="form-control" data-validation-type="not-blank" placeholder="Password" validation="required" required="required" type="text" style="text-align: left;">
+                                </div>
+                            </div>
+                            <div class="check-box">
+                                <input type="checkbox" id="policy" name="" value="">
+                                <label for="policy" style="margin-left: 4px;">I agree to the Terms of Use and Privacy Policy</label>
+                            </div>
                             <div class="wrapped-button">
                                 <button type="submit" class="btn3">Create Account</button>
                             </div>

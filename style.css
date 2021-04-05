@@ -847,7 +847,11 @@ letter-spacing: .8px;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075)  !important;
 }
 .check-box{
-    margin-top: 40px;
+    margin-top: 30px;
+    margin-bottom: 5px;
     text-align: left;
+    margin-inline: 46px;
+}
+.g-recaptcha{
     margin-inline: 46px;
 }
